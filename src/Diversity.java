@@ -1,6 +1,7 @@
 import Living.Dog;
 import Living.Dragon;
 import Living.Human;
+import Living.RoboDog;
 import utils.Logger;
 
 public class Diversity {
@@ -18,5 +19,9 @@ public class Diversity {
         String message = "Itosfq ht idsd";
         Logger.info("Haymitch says", haymitch.decode(message));
         Logger.info("Katniss says", katniss.decode(message));
+        RoboDog carina = new RoboDog("Carina", 54, 100, "Carbon-dated nickel bits");
+        carina.speak();
+        Logger.info("Carina says", carina.parse(message));
+        carina.roam();
     }
 }

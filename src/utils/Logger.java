@@ -1,7 +1,7 @@
 package utils;
 
 public class Logger {
-    public static String formatter(String type, Object... messages) {
+    private static String formatter(String type, Object... messages) {
         String service = SystemUtil.getCurrentDir();
         String timestamp = SystemUtil.getUtcTimestamp();
         String level = type.toUpperCase();

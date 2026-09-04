@@ -21,16 +21,17 @@ public class LearningMath {
 //        Logger.debug(x + y);
 
 //        Logger.debug(14 % 3);
+        int n = 2;
         if (n == 1) {
             System.out.println(1);
             return;
         }
-        if (isPrime(n)) {
-            System.out.println(1);
-            System.out.println(" ");
-            System.out.println(n);
-            return;
-        }
+//        if (isPrime(n)) {
+//            System.out.println(1);
+//            System.out.println(" ");
+//            System.out.println(n);
+//            return;
+//        }
         ArrayList<Integer> a = new ArrayList<>();
         ArrayList<Integer> b = new ArrayList<>();
         for (int i = 2; i <= Math.sqrt(n); ++i) {

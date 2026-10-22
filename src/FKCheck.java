@@ -48,6 +48,6 @@ public class FKCheck {
     }
 
     public static void main(String[] args) {
-        Logger.info(check());
+        Logger.info(String.valueOf(Integer.MIN_VALUE));
     }
 }
